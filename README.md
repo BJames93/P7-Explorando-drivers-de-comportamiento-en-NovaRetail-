@@ -39,7 +39,7 @@ Nombre: '/datasets/novaretail_comportamiento_clientes_2024.csv'
 | `region` | categórica | norte / sur / oeste / este |
 | `ingreso_anual` | num | Ingreso anual del cliente a la empresa |
 
-Nota: Esta variable (ingreso_anual) es el foco principal del análisis.
+> Nota: Esta variable (ingreso_anual) es el foco principal del análisis.
 
 
 ## 📝 Plan de acción
@@ -55,4 +55,28 @@ Tu trabajo culminará con:
 - Conclusiones respaldadas por el análisis para futuras decisiones de crecimiento, retención o experimentación.
 
 # 🔄 Flujo general del proyecto
+| Paso | Acción | Resultado esperado |
+| :---: | :--- | :--- |
+| **1** | Cargar y explorar el dataset | Entender estructura, columnas, tipos y métricas clave |
+| **2** | Preparar datos y documentar supuestos | Datos sin errores y listos para el reporte.<br>Definir variables relevantes y reglas del análisis. |
+| **3** | Visualizar relaciones iniciales | Heatmap para patrones globales y Scatterplots |
+| **4** | Calcular correlaciones adecuadas | Pearson/Spearman<br>Punto biserial<br>V de Cramér |
+| **5** | Interpretar resultados | Evidencia → interpretación responsable → implicación |
+| **6** | Limitaciones y próximos pasos | Qué no se puede concluir + qué harías después |
 
+
+## ⚙️ Detalles clave
+- Tabla principal: dataset de comportamiento de clientes ('/datasets/novaretail_comportamiento_clientes_2024.csv').
+- Métrica foco: ingresos_mensuales (valor generado por cada cliente).
+- Naturaleza del análisis: correlacional y exploratorio, no causal.
+- Tipos de relaciones analizadas:
+    - Numéricas (lineales y monotónicas)
+    - Binarias vs. numéricas
+    - Categóricas
+- Resultado final: un reporte de análisis de correlación que combine:
+    - Evidencia visual
+    - Evidencia numérica
+    - Interpretación responsable
+    - Implicaciones de negocio
+ 
+  > 📒 Sigue el flujo de trabajo descrito en cada celda del Jupyter Notebook; ahí encontrarás instrucciones paso a paso, pre-código y notas que te servirán de guía para completar con éxito el proyecto.
