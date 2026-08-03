@@ -39,3 +39,20 @@ Nombre: '/datasets/novaretail_comportamiento_clientes_2024.csv'
 | `region` | categórica | norte / sur / oeste / este |
 | `ingreso_anual` | num | Ingreso anual del cliente a la empresa |
 
+Nota: Esta variable (ingreso_anual) es el foco principal del análisis.
+
+
+## 📝 Plan de acción
+Contexto del negocio
+Tu misión será construir un análisis correlacional estructurado que combine variables de comportamiento del cliente, segmentación y valor económico para usuarios de NovaRetail+ durante 2024.
+
+El objetivo es generar un reporte de análisis de correlación claro, responsable y accionable, que permita entender qué comportamientos del cliente están más fuertemente asociados con el ingreso generado, sin caer en interpretaciones causales incorrectas.
+
+Tu trabajo culminará con:
+
+- Un Jupyter Notebook completamente documentado, que muestre el análisis paso a paso.
+- Un reporte ejecutivo dentro del Jupyter Notebook con hallazgos, implicaciones y límites claros.
+- Conclusiones respaldadas por el análisis para futuras decisiones de crecimiento, retención o experimentación.
+
+# 🔄 Flujo general del proyecto
+
