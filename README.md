@@ -80,3 +80,6 @@ Tu trabajo culminará con:
     - Implicaciones de negocio
  
   > 📒 Sigue el flujo de trabajo descrito en cada celda del Jupyter Notebook; ahí encontrarás instrucciones paso a paso, pre-código y notas que te servirán de guía para completar con éxito el proyecto.
+
+
+
